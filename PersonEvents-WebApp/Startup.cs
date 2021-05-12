@@ -14,7 +14,7 @@ namespace PersonEvents_WebApp
     public class Startup
     {
         //private const string ConnectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=PersonEventsDemoDB;User Id=demo;Password=demo;";
-        private const string ConnectionString = @"Server=(localdb)\\mssqllocaldb;Database=PersonEventsDemoDB;Trusted_Connection=True;MultipleActiveResultSets=true";
+        private const string ConnectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=PersonEventsDemoDB;Trusted_Connection=True";
 
         public Startup(IConfiguration configuration)
         {
