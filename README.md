@@ -49,7 +49,18 @@ Assume doctors machine/browsers are clients subscried to real time updates from 
 **After you've finished the solution, we would like you to complete a few questions. Put the answers in the readme of your submission.**
 
 1.	If you had more time, what would you change or focus more time on?
+    - Create a nice front end UI for clients to receive and storing events.
+    - Code review once again to see if design can be made better
+    - Re visit code for code performance improvement with respect to the backend response time.
+    - Provide handling for specific doctor push/notification as a single client or relevant client push instead of boadcast to all doctors at the moment.
 
-3.	Which part of the solution consumed the most amount of time?
-4.	What would you suggest to the clinicians that they may not have thought of in regard to their request?
+2.	Which part of the solution consumed the most amount of time?
+    - Wiring the signalR Hub and SqlDependeies together on the asp .net core backend.
+    - Fixing incompatible build time issues on asp. net core 3.1 with respect to CLR api calls.
+
+3.	What would you suggest to the clinicians that they may not have thought of in regard to their request?
+    - Provide single client push from backend (signalR hub) would be nice feature and not pollute with notification to other doctors the patient may not be relevant.
+    - Suggest them to use more unique person identifiers in health eco system.
+      This would help stirae and normalise data on the backend in a much cleaner way.
+      Some identifiers in mind could be medicare card no or Individual health idnetifier (IHI) which are national identifiers for a person.
 
