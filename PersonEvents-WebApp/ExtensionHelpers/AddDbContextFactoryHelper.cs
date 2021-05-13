@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PersonEvents_WebApp.Helper
+namespace PersonEvents_WebApp.ExtensionHelpers
 {
     public static class AddDbContextFactoryHelper
     {

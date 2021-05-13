@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PersonEvents_WebApp.Helper;
+using PersonEvents_WebApp.ExtensionHelpers;
 using PersonEvents_WebApp.Hubs;
 using PersonEvents_WebApp.Repository.cs;
 using PersonEvents_WebApp.SqlTableDependencies;
@@ -81,7 +81,7 @@ namespace PersonEvents_WebApp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World from Sever!");
             });
 
             //app.UseRouting();

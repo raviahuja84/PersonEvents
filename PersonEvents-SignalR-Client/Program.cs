@@ -22,7 +22,7 @@ namespace PersonEvents_SignalR_Client
 
         public static async Task<int> ExecuteAsync()
         {
-            var baseUrl = "http://localhost:4235/personevents";
+            var baseUrl = "http://localhost:44359/personevents";
 
             Console.WriteLine("Connecting to {0}", baseUrl);
             var connection = new HubConnectionBuilder()
