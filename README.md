@@ -37,11 +37,11 @@ On every event arriving to the datastore, the clients (dcotors) to get updated e
 
 **Typical Scenario**
 
-The patient administration dept. (could be reception desk at hospitals/clincs) which on patient arrival
+The patient administration dept. (could be reception desk at hospitals/clinics) which on patient arrival
 would update patient information (assume new patient walks in OR to validate patients personal information is upto date on hospital records).
 
-Now, every visit for the patient could be treated as an 'Event' in patients life which has brought him to the clinics/hospital.
-So the real time updates to patient and event store is done by front desk and the doctors could see the real tiem updates.
+Now, every visit for the patient could be treated as an 'Event' in persons life which has brought him to the clinics/hospital.
+So the real time updates to person and event store is done by front desk and the doctors could see the real tiem updates.
 
 Assume doctors machine/browsers are clients subscried to real time updates from sigNalR updates.
 
