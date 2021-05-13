@@ -56,7 +56,7 @@ Assume doctors machine/browsers are clients subscried to real time updates from 
     - Provide handling for specific doctor push/notification as a single client or relevant client push instead of boadcast to all doctors at the moment.
 
 2.	Which part of the solution consumed the most amount of time?
-    - Wiring the signalR Hub and SqlDependeies together on the asp .net core backend.
+    - Wiring the signalR Hub and SqlTableDependeies together on the asp .net core backend.
     - Fixing incompatible build time issues on asp. net core 3.1 with respect to CLR api calls.
 
 3.	What would you suggest to the clinicians that they may not have thought of in regard to their request?
