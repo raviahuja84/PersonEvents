@@ -46,6 +46,7 @@ Assume doctors machine/browsers are clients subscried to real time updates from 
 
 
 **Questions**
+
 **After you've finished the solution, we would like you to complete a few questions. Put the answers in the readme of your submission.**
 
 1.	If you had more time, what would you change or focus more time on?
