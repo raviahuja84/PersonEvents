@@ -1,1 +1,42 @@
 # PersonEvents
+The application is a web application which could be used by adminstration staff in hospitals/clinics and doctors to get realtime updates for the patient 
+events occuring in their premises.
+
+
+**Technologies used**
+asp .net core
+localdb (sql server lightweight database housed in Visual Studio for debug)
+
+**Nuget package dependencies**
+Asp .net Core 
+SignalR server (Hub) 
+SignalR Client
+SqlTableDependency
+EntityFrameworkCore
+EntityFrameworkCore.SqlServer
+
+ASP.NET SignalR is a library for ASP.NET developers to add real-time web functionality to their applications. 
+Real-time web functionality is the ability to have server-side code push content to the connected clients in real-time.
+It is used commonly on duplex communications wherin supports the typical http(s) request/response model from client side initiation
+as well server side sending broadcast/notifications to clients as push messages. It creates a persisted connection unerlying betwen server and clients
+and leverages websockets as underlying technology.
+
+The signalRHub needs some sort of trigger/event change to notify clients  (web browsers/desktop apps) in this case.
+The trigger event source in this case is a database table (Events) used as datastore for events related to a patient.
+The signalR hub subscribes to the sql table ('Events') in this case for any DML operation (insert, update, delete) and then it would 
+join the data based on the events belonging to which patient and then preparing the real time /on the fly person with list of events being relayed back
+to the clients (browsers).
+
+**Assumptions**
+The Person and Events (related to the person) datastores could anywhere in azure sql/storage /No sql database.
+For simplicity we have have leveraged on localdb (lightweight) VS database.
+
+**Scenario**
+The patient administration dept. (could be reception desk at hospitals/clincs) which on patient arrival
+would update patient information (assume new patient walks in OR to validate patients personal information is upto date on hospital records).
+
+Now, every visit for the patient could be treated as an 'Event' in patients life which has brought him to the clinics/hospital.
+So the real time updates to patient and event store is done by front desk and the doctors could see the real tiem updates.
+
+Assume doctors machine/browsers are clients subscried to real time updates from sigNalR updates.
+
