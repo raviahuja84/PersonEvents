@@ -1,4 +1,4 @@
-# PersonEvents
+# Real Time PersonEvents updates
 The application is a web application which could be used by adminstration staff in hospitals/clinics and doctors to get realtime updates for the patient 
 events occuring in their premises.
 
