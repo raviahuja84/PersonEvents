@@ -4,10 +4,12 @@ events occuring in their premises.
 
 
 **Technologies used**
+
 asp .net core
 localdb (sql server lightweight database housed in Visual Studio for debug)
 
 **Nuget package dependencies**
+
 Asp .net Core 
 SignalR server (Hub) 
 SignalR Client
@@ -28,10 +30,12 @@ join the data based on the events belonging to which patient and then preparing 
 to the clients (browsers).
 
 **Assumptions**
+
 The Person and Events (related to the person) datastores could anywhere in azure sql/storage /No sql database.
 For simplicity we have have leveraged on localdb (lightweight) VS database.
 
 **Scenario**
+
 The patient administration dept. (could be reception desk at hospitals/clincs) which on patient arrival
 would update patient information (assume new patient walks in OR to validate patients personal information is upto date on hospital records).
 
@@ -45,6 +49,7 @@ Assume doctors machine/browsers are clients subscried to real time updates from 
 **After you've finished the solution, we would like you to complete a few questions. Put the answers in the readme of your submission.**
 
 1.	If you had more time, what would you change or focus more time on?
-2.	Which part of the solution consumed the most amount of time?
-3.	What would you suggest to the clinicians that they may not have thought of in regard to their request?
+
+3.	Which part of the solution consumed the most amount of time?
+4.	What would you suggest to the clinicians that they may not have thought of in regard to their request?
 
