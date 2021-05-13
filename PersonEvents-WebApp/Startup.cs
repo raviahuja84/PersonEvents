@@ -85,20 +85,7 @@ namespace PersonEvents_WebApp
             });
 
             //app.UseRouting();
-
             //app.UseAuthorization();
-
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    // Routing for Hub
-            //    endpoints.MapHub<PersonEventsHub>("/personevents");
-
-            //    // Routing for Controllers
-            //    endpoints.MapControllerRoute(
-            //        name: "default",
-            //        pattern: "{controller=Home}/{action=Index}/{id?}");
-            //});
-
         }
     }
 }

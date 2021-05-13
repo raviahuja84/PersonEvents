@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonEvents-WebApp", "PersonEvents-WebApp.csproj", "{A95BABAF-26E4-4C59-836F-3EA620882336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonEvents-SignalR-Client", "..\PersonEvents-SignalR-Client\PersonEvents-SignalR-Client.csproj", "{4F1A13D0-2A27-4411-922F-E9FC6D371686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonEvents-SignalR-Client", "..\PersonEvents-SignalR-Client\PersonEvents-SignalR-Client.csproj", "{4F1A13D0-2A27-4411-922F-E9FC6D371686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Scripts", "Database Scripts", "{E28C6775-B906-4807-8EF5-0E47A1C2EDE0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Table scripts.sql = ..\Table scripts.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
