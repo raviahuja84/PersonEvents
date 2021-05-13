@@ -46,9 +46,7 @@ So the real time updates to patient and event store is done by front desk and th
 Assume doctors machine/browsers are clients subscried to real time updates from sigNalR updates.
 
 
-**Questions**
-
-**After you've finished the solution, we would like you to complete a few questions. Put the answers in the readme of your submission.**
+**Questions** (As part of the challenge/Exercise)
 
 1.	If you had more time, what would you change or focus more time on?
     - Create a nice front end UI for clients to receive and storing events.
