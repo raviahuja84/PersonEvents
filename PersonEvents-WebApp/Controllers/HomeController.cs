@@ -20,7 +20,6 @@ namespace PersonEvents_WebApp.Controllers
 
         public IActionResult Index()
         {
-            //var res = "Hello from Home Controller";
             return View();
         }
 
