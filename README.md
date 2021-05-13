@@ -31,10 +31,11 @@ to the clients (browsers).
 
 **Assumptions**
 
-The Person and Events (related to the person) datastores could anywhere in azure sql/storage /No sql database.
+The Person and Events (related to the person) datastores could be anywhere in azure sql/storage /No sql database.
 For simplicity we have have leveraged on localdb (lightweight) VS database.
+On every event arriving to the datastore, the clients (dcotors) to get updated event information for the person.
 
-**Scenario**
+**Typical Scenario**
 
 The patient administration dept. (could be reception desk at hospitals/clincs) which on patient arrival
 would update patient information (assume new patient walks in OR to validate patients personal information is upto date on hospital records).
