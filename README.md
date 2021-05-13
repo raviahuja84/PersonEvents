@@ -5,17 +5,17 @@ events occuring in their premises.
 
 **Technologies used**
 
-asp .net core
-localdb (sql server lightweight database housed in Visual Studio for debug)
+- asp .net core
+- sql server localdb (lightweight database housed in Visual Studio for debug)
 
 **Nuget package dependencies**
 
-Asp .net Core 
-SignalR server (Hub) 
-SignalR Client
-SqlTableDependency
-EntityFrameworkCore
-EntityFrameworkCore.SqlServer
+- Asp .net Core 
+- SignalR server (Hub) 
+- SignalR Client
+- SqlTableDependency
+- EntityFrameworkCore
+- EntityFrameworkCore.SqlServer
 
 ASP.NET SignalR is a library for ASP.NET developers to add real-time web functionality to their applications. 
 Real-time web functionality is the ability to have server-side code push content to the connected clients in real-time.
